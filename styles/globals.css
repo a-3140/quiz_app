@@ -1,0 +1,40 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.font-size-xl {
+  font-size: 1.4rem;
+}
+
+.full-width {
+  min-width: 100%;
+}
+
+.transparent {
+  background: rgba(252, 252, 252, 0.9) !important;
+  color: #000000 !important;
+}
+
+.min-card {
+  min-width: 300px;
+}
+.hide {
+  display: none;
+}
+.absolute-center-right {
+  top: 50%;
+  transform: translate(0, -50%) !important;
+  right: 10px;
+}
