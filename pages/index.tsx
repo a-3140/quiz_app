@@ -1,7 +1,8 @@
-import Head from "next/head";
-import Link from "next/link";
-import styles from "../styles/main.module.css";
-import { SettingsContext } from "../context/settings-context";
+import Head from 'next/head';
+import Link from 'next/link';
+
+import { SettingsContext } from '../context/settings-context';
+import styles from '../styles/main.module.css';
 
 const Index = () => {
   /* TODO
@@ -72,8 +73,10 @@ const Index = () => {
                       </div>
                     </div>
                     <div className="card-footer level content">
-                      {/* Last Score: 10/10 */}
-                      <a href="https://www.mark-atienza.com/" target="_blank"> Created by: Mark the Dev</a>
+                      <a href="https://a3140.com" target="_blank">
+                        {" "}
+                        Created by: Arvin Mark Atienza
+                      </a>
                     </div>
                     <div className="action-bar u-center">
                       <Link href="/test">
